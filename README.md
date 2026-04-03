@@ -1,17 +1,11 @@
 #  Fitly — AI-Powered Fashion Stylist
 
-Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze a user's photo and deliver personalized fashion recommendations — outfit ideas, color palette, accessory tips, and grooming advice.
+Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze a user's photo and deliver personalized fashion recommendations outfit ideas, color palette, accessory tips, and grooming advice.
 
 <img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/08904a05-385b-4572-847d-f28d2d4266b3" />
 
 
 ---
-
-##  Live Demo
-
-- **Fitly:** [https://fitly.netlify.app](fitlyyy.netlify.app/) 
-
-
 ---
 
 ##  How It Works
@@ -84,7 +78,7 @@ Fitly/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/fitly.git
+git clone https://github.com/vaishnav-reddy/Fitly.git
 cd fitly
 ```
 
