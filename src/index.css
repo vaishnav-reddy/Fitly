@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-white antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-brand-surface;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-muted;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-gold-gradient text-brand-dark font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:opacity-90 hover:shadow-gold active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-outline {
+    @apply border border-brand-border text-white font-medium px-6 py-3 rounded-xl transition-all duration-200 hover:border-brand-gold hover:text-brand-gold active:scale-95;
+  }
+
+  .card {
+    @apply bg-brand-card border border-brand-border rounded-2xl shadow-card;
+  }
+
+  .gold-text {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-widest text-brand-gold;
+  }
+
+  .input-field {
+    @apply w-full bg-brand-surface border border-brand-border rounded-xl px-4 py-3 text-white placeholder-brand-muted text-sm focus:outline-none focus:border-brand-gold transition-colors;
+  }
+}
