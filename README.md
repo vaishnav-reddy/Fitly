@@ -2,15 +2,15 @@
 
 Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze a user's photo and deliver personalized fashion recommendations — outfit ideas, color palette, accessory tips, and grooming advice.
 
-![Fitly Preview](<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/08904a05-385b-4572-847d-f28d2d4266b3" />
-)
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/08904a05-385b-4572-847d-f28d2d4266b3" />
+
 
 ---
 
 ##  Live Demo
 
-- **Frontend:** [https://fitly.vercel.app](https://fitly.vercel.app) *(update with your URL)*
-- **Backend API:** [https://fitly-bcknd.onrender.com](https://fitly-bcknd.onrender.com)
+- **Fitly:** [https://fitly.netlify.app](fitlyyy.netlify.app/) 
+
 
 ---
 
