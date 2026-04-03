@@ -1,19 +1,20 @@
-# 👗 Fitly — AI-Powered Fashion Stylist
+#  Fitly — AI-Powered Fashion Stylist
 
 Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze a user's photo and deliver personalized fashion recommendations — outfit ideas, color palette, accessory tips, and grooming advice.
 
-![Fitly Preview](https://via.placeholder.com/900x400?text=Fitly+AI+Fashion+Stylist)
+![Fitly Preview](<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/08904a05-385b-4572-847d-f28d2d4266b3" />
+)
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 - **Frontend:** [https://fitly.vercel.app](https://fitly.vercel.app) *(update with your URL)*
 - **Backend API:** [https://fitly-bcknd.onrender.com](https://fitly-bcknd.onrender.com)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User uploads a photo on the Home page
 2. Image is sent to the Express backend via `multipart/form-data`
@@ -24,7 +25,7 @@ Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                           |
 |------------|---------------------------------------|
@@ -37,7 +38,7 @@ Fitly is a full-stack web app that uses **Google Gemini AI (Vision)** to analyze
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Fitly/
@@ -73,7 +74,7 @@ Fitly/
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -109,7 +110,7 @@ npm run dev
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint         | Description                      |
 |--------|------------------|----------------------------------|
@@ -122,21 +123,21 @@ npm run dev
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📸 Drag & drop image upload with live preview
-- 🤖 AI analysis: body shape, skin tone, face shape
-- 🎨 Personalized color palette recommendations
-- 👔 Formal & casual outfit suggestions
-- 💍 Accessory and grooming tips
-- 💬 Real-time AI fashion chat with message history
-- 📂 Analysis history with delete support
-- 📊 Admin dashboard with usage stats and charts
-- 📱 Fully responsive design (mobile + desktop)
+-  Drag & drop image upload with live preview
+-  AI analysis: body shape, skin tone, face shape
+-  Personalized color palette recommendations
+-  Formal & casual outfit suggestions
+-  Accessory and grooming tips
+-  Real-time AI fashion chat with message history
+-  Analysis history with delete support
+-  Admin dashboard with usage stats and charts
+-  Fully responsive design (mobile + desktop)
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 **Backend `.env`**
 ```env
@@ -151,6 +152,6 @@ VITE_API_URL=https://your-backend-url.onrender.com
 
 ---
 
-## 📄 License
+##  License
 
 MIT
